@@ -3,7 +3,7 @@
 makeCacheMatrix <- function(x = matrix()) {
   
   # matrix inverse becomes null because we are (re)defining the matrix
-  #  mi <- NULL
+  mi <- NULL
   
   # set function changes the matrix to a new one, also resets the inverse to null
   set <- function(y) {
